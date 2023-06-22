@@ -1,12 +1,12 @@
 [master]
-master ansible_host=54.164.167.211
+master ansible_host=54.162.52.1
 
 [workers]
-worker1 ansible_host=44.208.20.166
-worker2 ansible_host=18.212.17.34 
+worker1 ansible_host=18.233.147.138
+worker2 ansible_host=44.202.87.155
 
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ansible_ssh_extra_args='-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
 ansible_ssh_private_key_file=./devops.pem
-ansible_user=spy0x
+ansible_user=ubuntu
