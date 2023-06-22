@@ -9,4 +9,4 @@ worker2 ansible_host=18.212.17.34
 ansible_python_interpreter=/usr/bin/python3
 ansible_ssh_extra_args='-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
 ansible_ssh_private_key_file=./devops.pem
-ansible_user=ubuntu
+ansible_user=spy0x
