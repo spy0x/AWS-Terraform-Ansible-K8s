@@ -1,1 +1,1 @@
-instance_type = "t4g.small"
+instance_type = "t3.micro"
