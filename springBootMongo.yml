@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: dipinoar/spring-boot-mongo:latest
+        image: spy0x/prueba-final:latest
         ports:
         - containerPort: 8080
         env:
